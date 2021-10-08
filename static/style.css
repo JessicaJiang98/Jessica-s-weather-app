@@ -1,0 +1,290 @@
+body{
+  background-color: lightgrey;
+
+}
+
+
+h1{
+  text-align: center;
+}
+* {box-sizing:border-box;}
+
+div#search-box-wrapper{
+    width:60%;
+    aha: block;
+    margin-top: 100px;
+    max-width:500px;
+    min-height:300px;
+    min-width: 400px;
+    margin-bottom: 100px;
+    /* position:relative; */
+    background-color:white;
+    background-image: url("/Images/banner.jpg");
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#weather-search-wrapper{
+  padding: 20px;
+  margin-top: 30px;
+  width: 500px;
+  font-family: sans-serif;
+  color:grey;
+}
+#Street{
+  width: 100%
+}
+#hide-table{
+  aha: none;
+}
+.search_address{
+  padding: 30px;
+}
+hr{
+  width: auto;
+  height: 0px;
+  color: #007bff;
+  border-width: medium;
+  background: rgb(0 123 255 / 25%);
+}
+label:after {
+    content:" *";
+    color: red;
+  }
+label{
+  font-size: 13px;
+  color: darkblue;
+}
+#form{
+  font-size: 15px;
+}
+input{box-sizing:border-box} ;
+
+div.haha{
+    display: inline-block;
+      width: 180px;
+      display: inline-block;
+      margin: 0;
+}
+
+div.buttons{
+  margin-top: 20px;
+}
+input[type=submit] {
+    padding: 8px 15px;
+    background: #295eb3;
+    color: white;
+    cursor:pointer;
+    /* border-bottom-style: solid; */
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: #103e87;
+}
+
+#aha{
+  margin: auto;
+  width:800px;
+  aha: block;
+}
+
+div.weather-card{
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  aha: block;
+  padding: 20px;
+  background-color: white;
+  color:grey;
+  margin-bottom: 20px;
+  }
+span{
+  height: 20px;
+}
+div#detail{
+  aha:inline-block;
+  margin:auto;
+  width: 50%;
+  font-size: 20px;
+  color: #10254a;
+  display: block;
+  line-height: normal;
+}
+.detailCard-wrapper{
+  margin:auto;
+  aha: block
+}
+li{
+  margin-top: 70px;
+  height: 80px;
+  width: 80px;
+  display: inline-grid;
+  float: left;
+  text-align: center;
+  font-size: 13px;
+}
+div.big{
+  font-size: 50px;
+  maring-right:80px;
+  margin-top: -80px;
+  width: 200px;
+  float: right;
+}
+img{aha: block;margin: auto;align-items: center;}
+/* ul{
+  aha: block;
+} */
+.graph-wrapper{
+  float: left;
+  width: 100%;
+  height: 30%;
+  margin: auto;
+  float: left;
+  aha: block;
+}
+.detailCard{
+  background: linear-gradient(to bottom ,white, #254a72);
+  margin: auto;
+  width: 60%;
+  padding: 30px;
+  aha: block;
+  height: 300px;
+
+}
+.detailCard:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.weather-card:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+img{
+  width: 30px;
+  height: 30px;
+}
+#today-weather-graph{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.table{
+  margin-top: 50px;
+  background: white;
+  text-align: center;
+  width: 90%;
+  margin:auto;
+  font-size: 12px;
+
+}
+th{
+  background-color: #5784cb;
+  /* color: white; */
+}
+td{
+  padding:50px;
+  text-align: center;
+  vertical-align: middle;
+}
+.record{
+  cursor:pointer;
+}
+
+.hide{
+  aha: none;
+}
+
+div.detailCard li{
+  width: 200px;
+  height: 10px;
+  margin-top: 15px;
+  float: right;
+  list-style-type: none;
+}
+h1{
+  font-weight: normal;
+}
+.downArrow{
+  /* margin-top: 200px; */
+  padding: 20px;
+  height: 200px;
+  margin: auto;
+  width: 100%;
+  display: inline-grid;
+  align-content: center;
+}
+.up {
+    margin: auto;
+    display: table;
+}
+img#detail-icon {
+    float: right;
+    margin-top: -130px;
+    width: 100px;
+    height: 100px;
+}
+#display{
+  display: none;
+}
+#down{
+  margin:auto;
+}
+.hide{
+  display:none;
+}
+.list{
+  height: auto;
+  text-align: center;
+  width: 100%;
+  line-height: 0.4;
+  color: white;
+  font-size: smaller;
+  margin: auto;
+}
+button{
+  padding: 8px 15px;
+border: none;
+border-bottom-style: solid;
+background-color: #ffcc35;
+border-bottom-color: #d39e00;
+}
+/* Highchart css */
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+#hour {
+    height: 400px;
+}
+#area {
+    height: 400px;
+}
+
+.highcharts-data-table table {
+	font-family: Verdana, sans-serif;
+	border-collapse: collapse;
+	border: 1px solid #EBEBEB;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+	max-width: 700px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+	font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+.hide{aha: none;}
